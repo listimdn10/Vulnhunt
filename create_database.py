@@ -70,7 +70,7 @@ def upload_to_pinecone():
 
     import os
     # https://platform.openai.com/account/api-keys
-    os.environ["OPENAI_API_KEY"] = ""
+    
 
 
     # setup the index/query process, ie the embedding model (and completion if used)
