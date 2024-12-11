@@ -43,7 +43,7 @@ def split_doc_to_chunk(documents):
 #tao index tren Pinecone
 def upload_to_pinecone(): 
     # find API key in console at app.pinecone.io
-    pc = Pinecone(api_key="pcsk_3g4mTY_HJ4TSsa17ZFrUDXxssVSKLxnVRZGvMiqUp84PrkrqeWF7YXhvbuADN5B4vnu1fz")
+    pc = Pinecone(api_key="")
     # create the index if it does not exist already
     index_name = "vulnhunt-gpt"
 
